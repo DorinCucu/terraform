@@ -14,7 +14,8 @@ terraform {
     use_azuread_auth     = true
   }
 }
- 
+
 provider "azurerm" {
   features {}
 }
+provider "random" {}
