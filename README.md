@@ -34,9 +34,9 @@ Manual steps:
 3. Transform openssh key into ppk(used for putty) with this cmd puttygen C:\Users\%username%\.ssh\vm_key  -o vm_key.ppk or manually using puttygen.exe
 
 Run Commands:
-terraform init
-terraform plan
-terraform apply
+terraform init/
+terraform plan/
+terraform apply/
 
 
 
