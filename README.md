@@ -17,10 +17,12 @@ Azure services/resources used:
 - null_resources with local-exec and remote-exec
 
 Inputs/outputs definitions:
+
 Inputs:
 - vm_count # how many vm machines to deploy
 - vm_image # image used for the VMs
 - vm_size #
+
 Outputs:
  - vm passwords, with sensitive = true
  - ping_results
